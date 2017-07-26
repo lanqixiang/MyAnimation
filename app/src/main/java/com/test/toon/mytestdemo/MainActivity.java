@@ -1,6 +1,5 @@
 package com.test.toon.mytestdemo;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         ListView mListView=(ListView)findViewById(R.id.list_item);
         List<String> array=new ArrayList<>();
         array.add("动画展示");
-        array.add("手机通讯录");
+        array.add("手机通讯录展示");
         MyAdapter adapter=new MyAdapter(this,array);
         mListView.setAdapter(adapter);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
