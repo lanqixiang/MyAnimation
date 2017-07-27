@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ListView mListView=(ListView)findViewById(R.id.list_item);
         List<String> array=new ArrayList<>();
         array.add("动画展示");
-        array.add("手机通讯录");
+        array.add("手机通讯录c");
         MyAdapter adapter=new MyAdapter(this,array);
         mListView.setAdapter(adapter);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
